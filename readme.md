@@ -1,0 +1,1 @@
+Aplicação desenvolvida para avaliação da disciplina: Seminário Interdisciplinar: Implementação de uma Aplicação WEB (ADS102)
