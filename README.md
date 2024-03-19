@@ -1,3 +1,4 @@
+
 # Seminário Interdisciplinar: Implementação de uma Aplicação WEB (ADS102)
 
 Projeto visa a criação de uma aplicação web desenvolvida em PHP realizando os processos de Create, Read, Update, Delete "CRUD" 
@@ -11,6 +12,7 @@ git clone https://github.com/dionimf/sem_inter_imp_aplicacao_web.git
 ```sh
 cd sem_inter_imp_aplicacao_web
 ```
+
 Suba os containers do projeto
 ```sh
 docker-compose up -d
@@ -36,6 +38,11 @@ composer install
 Gere a key do projeto Laravel
 ```sh
 php artisan key:generate
+```
+
+OPCIONAL: Gere o banco SQLite (caso não use o banco MySQL)
+```sh
+touch database/database.sqlite
 ```
 
 Rodar as migrations
